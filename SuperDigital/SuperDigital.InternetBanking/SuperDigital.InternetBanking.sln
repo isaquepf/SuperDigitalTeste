@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D24E95F-F30A-460C-B3D1-EBF41AD773AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{DB31709C-BACB-428D-9A06-E7BF66F18556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{22C99296-DF3A-4B53-9A2C-7DA57DE3C90D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDigital.InternetBanking.Tests", "src\SuperDigital.InternetBanking.Tests\SuperDigital.InternetBanking.Tests.csproj", "{DE90C63D-5150-4C85-ACEC-291C40387375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.InternetBanking.Core", "src\SuperDigital.InternetBanking.Core\SuperDigital.InternetBanking.Core.csproj", "{C6CD0796-4A5B-445D-94FC-A33BEEAD6B0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{CF2DC846-8A4A-47D3-9E4F-4F5BE564FC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.InternetBanking.Api", "src\SuperDigital.InternetBanking.Api\SuperDigital.InternetBanking.Api.csproj", "{937C3A46-3737-4536-AA57-C7CE38E5E9EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prova", "prova", "{2AF382EE-CC95-4578-9D70-EF0C4FA7C210}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Downloads\Teste desenvolvedor Backend Superdigital.docx = ..\..\..\..\..\Downloads\Teste desenvolvedor Backend Superdigital.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE90C63D-5150-4C85-ACEC-291C40387375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE90C63D-5150-4C85-ACEC-291C40387375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE90C63D-5150-4C85-ACEC-291C40387375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE90C63D-5150-4C85-ACEC-291C40387375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CD0796-4A5B-445D-94FC-A33BEEAD6B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CD0796-4A5B-445D-94FC-A33BEEAD6B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CD0796-4A5B-445D-94FC-A33BEEAD6B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CD0796-4A5B-445D-94FC-A33BEEAD6B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937C3A46-3737-4536-AA57-C7CE38E5E9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937C3A46-3737-4536-AA57-C7CE38E5E9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937C3A46-3737-4536-AA57-C7CE38E5E9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937C3A46-3737-4536-AA57-C7CE38E5E9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB31709C-BACB-428D-9A06-E7BF66F18556} = {2D24E95F-F30A-460C-B3D1-EBF41AD773AA}
+		{22C99296-DF3A-4B53-9A2C-7DA57DE3C90D} = {2D24E95F-F30A-460C-B3D1-EBF41AD773AA}
+		{DE90C63D-5150-4C85-ACEC-291C40387375} = {22C99296-DF3A-4B53-9A2C-7DA57DE3C90D}
+		{C6CD0796-4A5B-445D-94FC-A33BEEAD6B0B} = {DB31709C-BACB-428D-9A06-E7BF66F18556}
+		{CF2DC846-8A4A-47D3-9E4F-4F5BE564FC22} = {2D24E95F-F30A-460C-B3D1-EBF41AD773AA}
+		{937C3A46-3737-4536-AA57-C7CE38E5E9EA} = {CF2DC846-8A4A-47D3-9E4F-4F5BE564FC22}
+		{2AF382EE-CC95-4578-9D70-EF0C4FA7C210} = {2D24E95F-F30A-460C-B3D1-EBF41AD773AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC47D4B0-5398-4627-A872-90B128623141}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include=".application\OperacaoApplicationService.cs" />
+    <Compile Include=".application\Resources\ContaResource.cs" />
+    <Compile Include=".application\Resources\OperacaoResource.cs" />
+    <Compile Include=".domain\.bounded context\Contas\Conta.cs" />
+    <Compile Include=".domain\.bounded context\Contas\Corrente\ContaCorrente.cs" />
+    <Compile Include=".domain\.bounded context\Contas\TipoConta.cs" />
+    <Compile Include=".domain\.bounded context\Lancamentos\Lancamento.cs" />
+    <Compile Include=".domain\.bounded context\Lancamentos\Operacao.cs" />
+    <Compile Include=".domain\.bounded context\Lancamentos\TipoOperacao.cs" />
+  </ItemGroup>
+
+</Project>

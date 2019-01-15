@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D24E95F-F30A-460C-B3D1-EBF41AD773AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{DB31709C-BACB-428D-9A06-E7BF66F18556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{9D26995A-CBD4-40D8-A752-8A75B55BAC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{096419A0-DFA1-4E17-94B4-9CCC53E04567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{7065BA10-F0BF-4527-BAFF-608BBD426647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.InternetBanking.Domain", "SuperDigital.InternetBanking.Domain\SuperDigital.InternetBanking.Domain.csproj", "{7E47B35A-C110-4473-86B2-84966D996F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.InternetBanking.Application", "SuperDigital.InternetBanking.Application\SuperDigital.InternetBanking.Application.csproj", "{09D5B0E9-CE1C-4685-B58C-EA047015B808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.InternetBanking.Infra", "SuperDigital.InternetBanking.Infra\SuperDigital.InternetBanking.Infra.csproj", "{952CA97D-010B-405C-A9CC-16944940080C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{22C99296-DF3A-4B53-9A2C-7DA57DE3C90D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDigital.InternetBanking.Tests", "SuperDigital.InternetBanking.Tests\SuperDigital.InternetBanking.Tests.csproj", "{405EE012-A14F-4017-B62D-45BE7DA9EDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E47B35A-C110-4473-86B2-84966D996F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E47B35A-C110-4473-86B2-84966D996F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E47B35A-C110-4473-86B2-84966D996F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E47B35A-C110-4473-86B2-84966D996F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D5B0E9-CE1C-4685-B58C-EA047015B808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D5B0E9-CE1C-4685-B58C-EA047015B808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D5B0E9-CE1C-4685-B58C-EA047015B808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D5B0E9-CE1C-4685-B58C-EA047015B808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952CA97D-010B-405C-A9CC-16944940080C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952CA97D-010B-405C-A9CC-16944940080C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952CA97D-010B-405C-A9CC-16944940080C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952CA97D-010B-405C-A9CC-16944940080C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405EE012-A14F-4017-B62D-45BE7DA9EDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405EE012-A14F-4017-B62D-45BE7DA9EDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405EE012-A14F-4017-B62D-45BE7DA9EDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405EE012-A14F-4017-B62D-45BE7DA9EDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB31709C-BACB-428D-9A06-E7BF66F18556} = {2D24E95F-F30A-460C-B3D1-EBF41AD773AA}
+		{9D26995A-CBD4-40D8-A752-8A75B55BAC4A} = {DB31709C-BACB-428D-9A06-E7BF66F18556}
+		{096419A0-DFA1-4E17-94B4-9CCC53E04567} = {DB31709C-BACB-428D-9A06-E7BF66F18556}
+		{7065BA10-F0BF-4527-BAFF-608BBD426647} = {DB31709C-BACB-428D-9A06-E7BF66F18556}
+		{7E47B35A-C110-4473-86B2-84966D996F51} = {9D26995A-CBD4-40D8-A752-8A75B55BAC4A}
+		{09D5B0E9-CE1C-4685-B58C-EA047015B808} = {7065BA10-F0BF-4527-BAFF-608BBD426647}
+		{952CA97D-010B-405C-A9CC-16944940080C} = {096419A0-DFA1-4E17-94B4-9CCC53E04567}
+		{22C99296-DF3A-4B53-9A2C-7DA57DE3C90D} = {2D24E95F-F30A-460C-B3D1-EBF41AD773AA}
+		{405EE012-A14F-4017-B62D-45BE7DA9EDBB} = {22C99296-DF3A-4B53-9A2C-7DA57DE3C90D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC47D4B0-5398-4627-A872-90B128623141}
+	EndGlobalSection
+EndGlobal
